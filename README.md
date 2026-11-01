@@ -212,4 +212,4 @@ The project also demonstrates practical skills in dashboard development, explora
 **Visualization Tool:** Tableau Public  
 **Repository Platform:** GitHub  
 
-**Dashboard Link:** [Add your Tableau Public URL here]
+**Dashboard Link:** [https://public.tableau.com/views/SmarthealthcareriskfactorAnalysisDashboard/HealthcareStory?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
