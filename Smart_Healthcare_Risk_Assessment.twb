@@ -1,0 +1,1983 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='f77d3e2f3c7d9c2d42b4a1834ebeeb54008e72d6bfbd84ca0e94671f3f45a149' _.fcp.WorkbookFingerprinting.true...creator-author-id='ba40b4aee900739f2d0e9977b37eb2e0fd82f839f34a0b38c74ae50d6c146084' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='f77d3e2f3c7d9c2d42b4a1834ebeeb54008e72d6bfbd84ca0e94671f3f45a149' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='f77d3e2f3c7d9c2d42b4a1834ebeeb54008e72d6bfbd84ca0e94671f3f45a149' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xml:base='https://localhost:8080' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370?rev=1.0' id='Book2_17931716404370' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='smart_healthcare_dataset' inline='true' name='federated.0gve5dp1975oo91e9trxy1381t21' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='smart_healthcare_dataset' name='textscan.0bpygtk1g281qv1cfhpyr030s064'>
+            <connection class='textscan' directory='C:/Users/hardi/Downloads' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0bpygtk1g281qv1cfhpyr030s064' name='smart_healthcare_dataset.csv' table='[smart_healthcare_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='gender' ordinal='1' />
+            <column datatype='real' name='bmi' ordinal='2' />
+            <column datatype='integer' name='exercise_level' ordinal='3' />
+            <column datatype='integer' name='smoking' ordinal='4' />
+            <column datatype='integer' name='alcohol' ordinal='5' />
+            <column datatype='integer' name='blood_pressure' ordinal='6' />
+            <column datatype='integer' name='cholesterol' ordinal='7' />
+            <column datatype='integer' name='glucose' ordinal='8' />
+            <column datatype='integer' name='fatigue' ordinal='9' />
+            <column datatype='integer' name='chest_pain' ordinal='10' />
+            <column datatype='integer' name='dizziness' ordinal='11' />
+            <column datatype='integer' name='heart_disease' ordinal='12' />
+            <column datatype='integer' name='diabetes' ordinal='13' />
+            <column datatype='integer' name='stroke' ordinal='14' />
+            <column datatype='real' name='health_risk_score' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bmi</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bmi]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>bmi</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>exercise_level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[exercise_level]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>exercise_level</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[smoking]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>smoking</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alcohol</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[alcohol]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>alcohol</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blood_pressure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[blood_pressure]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>blood_pressure</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cholesterol</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cholesterol]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>cholesterol</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>glucose</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[glucose]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>glucose</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fatigue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fatigue]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>fatigue</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chest_pain</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[chest_pain]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>chest_pain</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dizziness</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dizziness]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>dizziness</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heart_disease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heart_disease]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>heart_disease</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diabetes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[diabetes]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>diabetes</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stroke</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stroke]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>stroke</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health_risk_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[health_risk_score]</local-name>
+            <parent-name>[smart_healthcare_dataset.csv]</parent-name>
+            <remote-alias>health_risk_score</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age group' datatype='string' name='[Calculation_1650427506368512]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [age] &lt; 30 THEN &quot;&lt;30&quot;&#13;&#10;ELSEIF [age] &lt; 40 THEN &quot;30–39&quot;&#13;&#10;ELSEIF [age] &lt; 50 THEN &quot;40–49&quot;&#13;&#10;ELSEIF [age] &lt; 60 THEN &quot;50–59&quot;&#13;&#10;ELSEIF [age] &lt; 70 THEN &quot;60–69&quot;&#13;&#10;ELSE &quot;70–79&quot;&#13;&#10;END' />
+      </column>
+      <column caption='BMI category' datatype='string' name='[Calculation_1650427506688001]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [bmi] &lt; 18.5 THEN &quot;Underweight&quot;&#13;&#10;ELSEIF [bmi] &lt; 25 THEN &quot;Normal&quot;&#13;&#10;ELSEIF [bmi] &lt; 30 THEN &quot;Overweight&quot;&#13;&#10;ELSE &quot;Obese&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Disease Count' datatype='integer' name='[Calculation_1650427506835458]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[heart_disease] + [diabetes] + [stroke]' />
+      </column>
+      <column caption='Exercise Category' datatype='string' name='[Calculation_1650427507052548]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [exercise_level] = 0 THEN &quot;Low&quot;&#13;&#10;ELSEIF [exercise_level] = 1 THEN &quot;Moderate&quot;&#13;&#10;ELSEIF [exercise_level] = 2 THEN &quot;High&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Smoking HD Rate' datatype='integer' name='[Calculation_1650427513262085]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [smoking] = 1 THEN [heart_disease] END' />
+      </column>
+      <column caption='Alcohol HD Rate' datatype='integer' name='[Calculation_1650427513335814]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [alcohol] = 1 THEN [heart_disease] END' />
+      </column>
+      <column caption='Low Exercise HD Rate' datatype='integer' name='[Calculation_1650427513421831]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [exercise_level] = 0 THEN [heart_disease] END' />
+      </column>
+      <column caption='Fatigue HD Rate' datatype='integer' name='[Calculation_1650427513475080]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [fatigue] = 1 THEN [heart_disease] END' />
+      </column>
+      <column caption='Chest Pain HD Rate' datatype='integer' name='[Calculation_1650427513536521]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [chest_pain] = 1 THEN [heart_disease] END' />
+      </column>
+      <column caption='Dizziness HD Rate' datatype='integer' name='[Calculation_1650427513593866]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [dizziness] = 1 THEN [heart_disease] END' />
+      </column>
+      <column caption='smart_healthcare_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Alcohol' datatype='integer' name='[alcohol]' role='measure' type='quantitative' />
+      <column caption='Blood Pressure' datatype='integer' name='[blood_pressure]' role='measure' type='quantitative' />
+      <column caption='Bmi' datatype='real' name='[bmi]' role='measure' type='quantitative' />
+      <column caption='Chest Pain' datatype='integer' name='[chest_pain]' role='measure' type='quantitative' />
+      <column caption='Cholesterol' datatype='integer' name='[cholesterol]' role='measure' type='quantitative' />
+      <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+      <column caption='Dizziness' datatype='integer' name='[dizziness]' role='measure' type='quantitative' />
+      <column caption='Exercise Level' datatype='integer' name='[exercise_level]' role='measure' type='quantitative' />
+      <column caption='Fatigue' datatype='integer' name='[fatigue]' role='measure' type='quantitative' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Glucose' datatype='integer' name='[glucose]' role='measure' type='quantitative' />
+      <column caption='Health Risk Score' datatype='real' name='[health_risk_score]' role='measure' type='quantitative' />
+      <column caption='Heart Disease' datatype='integer' name='[heart_disease]' role='measure' type='quantitative' />
+      <column caption='Smoking' datatype='integer' name='[smoking]' role='measure' type='quantitative' />
+      <column caption='Stroke' datatype='integer' name='[stroke]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diabetes]' derivation='Avg' name='[avg:diabetes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heart_disease]' derivation='Avg' name='[avg:heart_disease:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stroke]' derivation='Avg' name='[avg:stroke:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1650427506835458]' derivation='Sum' name='[sum:Calculation_1650427506835458:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[alcohol]' derivation='Sum' name='[sum:alcohol:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[blood_pressure]' derivation='Sum' name='[sum:blood_pressure:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bmi]' derivation='Sum' name='[sum:bmi:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[chest_pain]' derivation='Sum' name='[sum:chest_pain:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cholesterol]' derivation='Sum' name='[sum:cholesterol:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diabetes]' derivation='Sum' name='[sum:diabetes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[dizziness]' derivation='Sum' name='[sum:dizziness:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[exercise_level]' derivation='Sum' name='[sum:exercise_level:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[fatigue]' derivation='Sum' name='[sum:fatigue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[glucose]' derivation='Sum' name='[sum:glucose:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[health_risk_score]' derivation='Sum' name='[sum:health_risk_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heart_disease]' derivation='Sum' name='[sum:heart_disease:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[smoking]' derivation='Sum' name='[sum:smoking:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stroke]' derivation='Sum' name='[sum:stroke:qk]' pivot='key' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1u3bphd0im43yv12b9oa113as9iw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/28/2026 06:18:43 AM' username=''>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>0</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>1</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bmi</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[bmi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bmi</remote-alias>
+              <ordinal>2</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>253</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>exercise_level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[exercise_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>exercise_level</remote-alias>
+              <ordinal>3</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>smoking</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[smoking]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>smoking</remote-alias>
+              <ordinal>4</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>alcohol</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[alcohol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>alcohol</remote-alias>
+              <ordinal>5</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>blood_pressure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[blood_pressure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>blood_pressure</remote-alias>
+              <ordinal>6</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>90</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cholesterol</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cholesterol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cholesterol</remote-alias>
+              <ordinal>7</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>151</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>glucose</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[glucose]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>glucose</remote-alias>
+              <ordinal>8</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>131</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fatigue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fatigue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fatigue</remote-alias>
+              <ordinal>9</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>chest_pain</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[chest_pain]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>chest_pain</remote-alias>
+              <ordinal>10</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dizziness</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[dizziness]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dizziness</remote-alias>
+              <ordinal>11</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heart_disease</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[heart_disease]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heart_disease</remote-alias>
+              <ordinal>12</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diabetes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[diabetes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diabetes</remote-alias>
+              <ordinal>13</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stroke</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[stroke]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stroke</remote-alias>
+              <ordinal>14</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>health_risk_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[health_risk_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>health_risk_score</remote-alias>
+              <ordinal>15</ordinal>
+              <family>smart_healthcare_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:Calculation_1650427506835458:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:age:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:chest_pain:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:glucose:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:dizziness:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:cholesterol:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:alcohol:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:stroke:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:stroke:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[__tableau_internal_object_id__].[cnt:smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:health_risk_score:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:heart_disease:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:heart_disease:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:exercise_level:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:diabetes:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:diabetes:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:blood_pressure:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:smoking:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:fatigue:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:bmi:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='smart_healthcare_dataset.csv' id='smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2'>
+            <properties context=''>
+              <relation connection='textscan.0bpygtk1g281qv1cfhpyr030s064' name='smart_healthcare_dataset.csv' table='[smart_healthcare_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='string' name='gender' ordinal='1' />
+                  <column datatype='real' name='bmi' ordinal='2' />
+                  <column datatype='integer' name='exercise_level' ordinal='3' />
+                  <column datatype='integer' name='smoking' ordinal='4' />
+                  <column datatype='integer' name='alcohol' ordinal='5' />
+                  <column datatype='integer' name='blood_pressure' ordinal='6' />
+                  <column datatype='integer' name='cholesterol' ordinal='7' />
+                  <column datatype='integer' name='glucose' ordinal='8' />
+                  <column datatype='integer' name='fatigue' ordinal='9' />
+                  <column datatype='integer' name='chest_pain' ordinal='10' />
+                  <column datatype='integer' name='dizziness' ordinal='11' />
+                  <column datatype='integer' name='heart_disease' ordinal='12' />
+                  <column datatype='integer' name='diabetes' ordinal='13' />
+                  <column datatype='integer' name='stroke' ordinal='14' />
+                  <column datatype='real' name='health_risk_score' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Clinical Indicators'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/ClinicalIndicators?rev=' id='134538333' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column caption='Blood Pressure' datatype='integer' name='[blood_pressure]' role='measure' type='quantitative' />
+            <column caption='Bmi' datatype='real' name='[bmi]' role='measure' type='quantitative' />
+            <column caption='Glucose' datatype='integer' name='[glucose]' role='measure' type='quantitative' />
+            <column caption='Heart Disease' datatype='integer' name='[heart_disease]' role='measure' type='quantitative' />
+            <column-instance column='[blood_pressure]' derivation='Sum' name='[sum:blood_pressure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bmi]' derivation='Sum' name='[sum:bmi:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[glucose]' derivation='Sum' name='[sum:glucose:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heart_disease]' derivation='Sum' name='[sum:heart_disease:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:heart_disease:qk]' />
+              <size column='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:glucose:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0gve5dp1975oo91e9trxy1381t21].[sum:blood_pressure:qk]</rows>
+        <cols>[federated.0gve5dp1975oo91e9trxy1381t21].[sum:bmi:qk]</cols>
+      </table>
+      <simple-id uuid='{BAB36F11-DECD-40E3-A266-483D174D8599}' />
+    </worksheet>
+    <worksheet name='Disease Prevalence'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/DiseasePrevalence?rev=' id='134538329' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column-instance column='[diabetes]' derivation='Avg' name='[avg:diabetes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heart_disease]' derivation='Avg' name='[avg:heart_disease:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[stroke]' derivation='Avg' name='[avg:stroke:qk]' pivot='key' type='quantitative' />
+            <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+            <column caption='Heart Disease' datatype='integer' name='[heart_disease]' role='measure' type='quantitative' />
+            <column caption='Stroke' datatype='integer' name='[stroke]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:diabetes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:heart_disease:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:stroke:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]</rows>
+        <cols>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{4AB9D56E-F49F-4578-97F6-4CC1757C4AE4}' />
+    </worksheet>
+    <worksheet name='Disease by Age'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/DiseasebyAge?rev=' id='134538330' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column caption='Age group' datatype='string' name='[Calculation_1650427506368512]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [age] &lt; 30 THEN &quot;&lt;30&quot;&#13;&#10;ELSEIF [age] &lt; 40 THEN &quot;30–39&quot;&#13;&#10;ELSEIF [age] &lt; 50 THEN &quot;40–49&quot;&#13;&#10;ELSEIF [age] &lt; 60 THEN &quot;50–59&quot;&#13;&#10;ELSEIF [age] &lt; 70 THEN &quot;60–69&quot;&#13;&#10;ELSE &quot;70–79&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column-instance column='[diabetes]' derivation='Avg' name='[avg:diabetes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heart_disease]' derivation='Avg' name='[avg:heart_disease:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[stroke]' derivation='Avg' name='[avg:stroke:qk]' pivot='key' type='quantitative' />
+            <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+            <column caption='Heart Disease' datatype='integer' name='[heart_disease]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1650427506368512]' derivation='None' name='[none:Calculation_1650427506368512:nk]' pivot='key' type='nominal' />
+            <column caption='Stroke' datatype='integer' name='[stroke]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:diabetes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:heart_disease:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:stroke:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]' />
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]</rows>
+        <cols>[federated.0gve5dp1975oo91e9trxy1381t21].[none:Calculation_1650427506368512:nk]</cols>
+      </table>
+      <simple-id uuid='{5479F61B-DE9F-4EB0-95F0-7688271DD925}' />
+    </worksheet>
+    <worksheet name='Disease by BMI'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/DiseasebyBMI?rev=' id='134538331' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column-instance column='[diabetes]' derivation='Avg' name='[avg:diabetes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heart_disease]' derivation='Avg' name='[avg:heart_disease:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[stroke]' derivation='Avg' name='[avg:stroke:qk]' pivot='key' type='quantitative' />
+            <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+            <column caption='Heart Disease' datatype='integer' name='[heart_disease]' role='measure' type='quantitative' />
+            <column caption='Stroke' datatype='integer' name='[stroke]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:diabetes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:heart_disease:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[avg:stroke:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.1546962261199951' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]</rows>
+        <cols>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{ED236871-7E61-49F8-A706-73D6A2E76EAC}' />
+    </worksheet>
+    <worksheet name='KPI - Diabetes'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/KPI-Diabetes?rev=' id='134538327' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column-instance column='[diabetes]' derivation='Avg' name='[avg:diabetes:qk]' pivot='key' type='quantitative' />
+            <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:diabetes:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EC055FF9-1758-43EF-8A73-842FC6123042}' />
+    </worksheet>
+    <worksheet name='KPI - Heart Disease'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/KPI-HeartDisease?rev=' id='134538326' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column-instance column='[heart_disease]' derivation='Avg' name='[avg:heart_disease:qk]' pivot='key' type='quantitative' />
+            <column caption='Heart Disease' datatype='integer' name='[heart_disease]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:heart_disease:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7EB13953-8A9F-46C8-9D17-E64314B9C09B}' />
+    </worksheet>
+    <worksheet name='KPI - Stroke'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/KPI-Stroke?rev=' id='134538328' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column-instance column='[stroke]' derivation='Avg' name='[avg:stroke:qk]' pivot='key' type='quantitative' />
+            <column caption='Stroke' datatype='integer' name='[stroke]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:stroke:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6AADA3AE-D312-4F3E-AA06-E2AD0A8E7FF4}' />
+    </worksheet>
+    <worksheet name='KPI-Patients'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/KPI-Patients?rev=' id='134538325' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column-instance column='[__tableau_internal_object_id__].[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2:qk]' pivot='key' type='quantitative' />
+            <column caption='smart_healthcare_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[__tableau_internal_object_id__].[cnt:smart_healthcare_dataset.csv_BC1A5D463E6740678BB14D19355CE8D2:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DDB25A50-7870-4F67-90EC-5A1ED64AE842}' />
+    </worksheet>
+    <worksheet name='Risk Indicators'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/RiskIndicators?rev=' id='134538332' path='/workbooks/Book2_17931716404370' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='smart_healthcare_dataset' name='federated.0gve5dp1975oo91e9trxy1381t21' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gve5dp1975oo91e9trxy1381t21'>
+            <column caption='Disease Count' datatype='integer' name='[Calculation_1650427506835458]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[heart_disease] + [diabetes] + [stroke]' />
+            </column>
+            <column caption='Smoking HD Rate' datatype='integer' name='[Calculation_1650427513262085]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [smoking] = 1 THEN [heart_disease] END' />
+            </column>
+            <column caption='Alcohol HD Rate' datatype='integer' name='[Calculation_1650427513335814]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [alcohol] = 1 THEN [heart_disease] END' />
+            </column>
+            <column caption='Low Exercise HD Rate' datatype='integer' name='[Calculation_1650427513421831]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [exercise_level] = 0 THEN [heart_disease] END' />
+            </column>
+            <column caption='Fatigue HD Rate' datatype='integer' name='[Calculation_1650427513475080]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [fatigue] = 1 THEN [heart_disease] END' />
+            </column>
+            <column caption='Chest Pain HD Rate' datatype='integer' name='[Calculation_1650427513536521]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [chest_pain] = 1 THEN [heart_disease] END' />
+            </column>
+            <column caption='Dizziness HD Rate' datatype='integer' name='[Calculation_1650427513593866]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [dizziness] = 1 THEN [heart_disease] END' />
+            </column>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column caption='Alcohol' datatype='integer' name='[alcohol]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1650427513262085]' derivation='Avg' name='[avg:Calculation_1650427513262085:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513335814]' derivation='Avg' name='[avg:Calculation_1650427513335814:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513421831]' derivation='Avg' name='[avg:Calculation_1650427513421831:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513475080]' derivation='Avg' name='[avg:Calculation_1650427513475080:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513536521]' derivation='Avg' name='[avg:Calculation_1650427513536521:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513593866]' derivation='Avg' name='[avg:Calculation_1650427513593866:qk]' pivot='key' type='quantitative' />
+            <column caption='Blood Pressure' datatype='integer' name='[blood_pressure]' role='measure' type='quantitative' />
+            <column caption='Bmi' datatype='real' name='[bmi]' role='measure' type='quantitative' />
+            <column caption='Chest Pain' datatype='integer' name='[chest_pain]' role='measure' type='quantitative' />
+            <column caption='Cholesterol' datatype='integer' name='[cholesterol]' role='measure' type='quantitative' />
+            <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+            <column caption='Dizziness' datatype='integer' name='[dizziness]' role='measure' type='quantitative' />
+            <column caption='Exercise Level' datatype='integer' name='[exercise_level]' role='measure' type='quantitative' />
+            <column caption='Fatigue' datatype='integer' name='[fatigue]' role='measure' type='quantitative' />
+            <column caption='Glucose' datatype='integer' name='[glucose]' role='measure' type='quantitative' />
+            <column caption='Health Risk Score' datatype='real' name='[health_risk_score]' role='measure' type='quantitative' />
+            <column caption='Heart Disease' datatype='integer' name='[heart_disease]' role='measure' type='quantitative' />
+            <column caption='Smoking' datatype='integer' name='[smoking]' role='measure' type='quantitative' />
+            <column caption='Stroke' datatype='integer' name='[stroke]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1650427506835458]' derivation='Sum' name='[sum:Calculation_1650427506835458:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513335814]' derivation='Sum' name='[sum:Calculation_1650427513335814:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513421831]' derivation='Sum' name='[sum:Calculation_1650427513421831:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513475080]' derivation='Sum' name='[sum:Calculation_1650427513475080:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513536521]' derivation='Sum' name='[sum:Calculation_1650427513536521:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1650427513593866]' derivation='Sum' name='[sum:Calculation_1650427513593866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[alcohol]' derivation='Sum' name='[sum:alcohol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[blood_pressure]' derivation='Sum' name='[sum:blood_pressure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bmi]' derivation='Sum' name='[sum:bmi:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[chest_pain]' derivation='Sum' name='[sum:chest_pain:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cholesterol]' derivation='Sum' name='[sum:cholesterol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[diabetes]' derivation='Sum' name='[sum:diabetes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[dizziness]' derivation='Sum' name='[sum:dizziness:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[exercise_level]' derivation='Sum' name='[sum:exercise_level:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[fatigue]' derivation='Sum' name='[sum:fatigue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[glucose]' derivation='Sum' name='[sum:glucose:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[health_risk_score]' derivation='Sum' name='[sum:health_risk_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heart_disease]' derivation='Sum' name='[sum:heart_disease:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[smoking]' derivation='Sum' name='[sum:smoking:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:age:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:alcohol:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:Calculation_1650427513335814:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:blood_pressure:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:bmi:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:chest_pain:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:Calculation_1650427513536521:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:cholesterol:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:diabetes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:Calculation_1650427506835458:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:dizziness:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:Calculation_1650427513593866:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:exercise_level:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:fatigue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:Calculation_1650427513475080:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:glucose:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:health_risk_score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:heart_disease:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:Calculation_1650427513421831:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gve5dp1975oo91e9trxy1381t21].[sum:smoking:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513262085:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513335814:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513421831:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513475080:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513536521:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513593866:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0gve5dp1975oo91e9trxy1381t21].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</rows>
+        <cols>([federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513262085:qk] + ([federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513335814:qk] + ([federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513421831:qk] + ([federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513475080:qk] + ([federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513536521:qk] + [federated.0gve5dp1975oo91e9trxy1381t21].[avg:Calculation_1650427513593866:qk])))))</cols>
+      </table>
+      <simple-id uuid='{4217362A-140F-4C3A-B49E-DAA1ADEFDD8E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Smart Healthcare Dashboard'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Book2_17931716404370/SmartHealthcareDashboard?rev=' id='134538324' path='/workbooks/Book2_17931716404370' revision='' />
+      <style />
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='7' param='horz' type-v2='layout-flow' w='98858' x='571' y='889'>
+            <zone h='98222' id='5' type-v2='layout-basic' w='87429' x='571' y='889'>
+              <zone forceUpdate='true' h='98222' id='3' type-v2='text' w='87429' x='571' y='889'>
+                <formatted-text>
+                  <run>Æ&#10;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98222' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='11429' x='88000' y='889'>
+              <zone h='2000' id='8' type-v2='text' w='11429' x='88000' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='4111' id='9' type-v2='text' w='33214' x='29857' y='2222'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>SMART HEALTHCARE — CHRONIC DISEASE RISK OVERVIEW</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Disease prevalence, clinical indicators and lifestyle risk patterns</run>
+          </formatted-text>
+        </zone>
+        <zone h='17111' id='10' name='KPI-Patients' w='14500' x='3786' y='10667' />
+        <zone h='17444' id='11' name='KPI - Heart Disease' w='17000' x='25929' y='9889' />
+        <zone h='14778' id='12' name='KPI - Diabetes' w='18286' x='50214' y='9444' />
+        <zone h='15444' id='13' name='KPI - Stroke' w='21357' x='75714' y='9667' />
+        <zone h='35444' id='14' name='Disease Prevalence' w='42500' x='44143' y='27778' />
+        <zone h='36000' id='16' name='Disease by Age' w='39571' x='1929' y='26000' />
+        <zone h='31556' id='17' name='Disease by BMI' w='33286' x='2857' y='65556' />
+        <zone h='31556' id='18' name='Risk Indicators' w='33286' x='39571' y='64111' />
+        <zone h='31556' id='19' name='Clinical Indicators' w='25000' x='74429' y='65778' />
+        <zone h='9778' id='20' name='Clinical Indicators' pane-specification-id='0' param='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:heart_disease:qk]' type-v2='color' w='10000' x='63000' y='65778' />
+        <zone h='4778' id='21' name='Clinical Indicators' pane-specification-id='0' param='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:glucose:qk]' type-v2='size' w='10000' x='61929' y='67444' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2400' minheight='2400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='24' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+                <zone forceUpdate='true' h='98222' id='3' type-v2='text' w='87429' x='571' y='889'>
+                  <formatted-text>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2000' id='8' type-v2='text' w='11429' x='88000' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4111' id='9' type-v2='text' w='33214' x='29857' y='2222'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>SMART HEALTHCARE — CHRONIC DISEASE RISK OVERVIEW</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Disease prevalence, clinical indicators and lifestyle risk patterns</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='133' h='14778' id='12' is-fixed='true' name='KPI - Diabetes' w='18286' x='50214' y='9444'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='139' h='15444' id='13' is-fixed='true' name='KPI - Stroke' w='21357' x='75714' y='9667'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='157' h='17444' id='11' is-fixed='true' name='KPI - Heart Disease' w='17000' x='25929' y='9889'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='154' h='17111' id='10' is-fixed='true' name='KPI-Patients' w='14500' x='3786' y='10667'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36000' id='16' is-fixed='true' name='Disease by Age' w='39571' x='1929' y='26000'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35444' id='14' is-fixed='true' name='Disease Prevalence' w='42500' x='44143' y='27778'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='31556' id='18' is-fixed='true' name='Risk Indicators' w='33286' x='39571' y='64111'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='31556' id='17' is-fixed='true' name='Disease by BMI' w='33286' x='2857' y='65556'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='31556' id='19' is-fixed='true' name='Clinical Indicators' w='25000' x='74429' y='65778'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9778' id='20' name='Clinical Indicators' pane-specification-id='0' param='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:heart_disease:qk]' type-v2='color' w='10000' x='63000' y='65778'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4778' id='21' name='Clinical Indicators' pane-specification-id='0' param='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:glucose:qk]' type-v2='size' w='10000' x='61929' y='67444'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DD8E9057-4450-4CF0-9849-E016BFD6D2E1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='dashboard' maximized='true' name='Smart Healthcare Dashboard'>
+      <viewpoints>
+        <viewpoint name='Clinical Indicators'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Disease Prevalence'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Disease by Age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Disease by BMI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Diabetes'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Heart Disease'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Stroke'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI-Patients'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Risk Indicators' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F5C8CE57-F26D-4401-AA97-1959EF85DE7E}' />
+    </window>
+    <window class='worksheet' name='KPI-Patients'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B7FAEB26-E78D-497A-A013-A45EF28FE5E7}' />
+    </window>
+    <window class='worksheet' name='KPI - Heart Disease'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{273FAFD0-3366-495A-8A5A-359CB7794719}' />
+    </window>
+    <window class='worksheet' name='KPI - Diabetes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{978D0443-DAD6-45CA-B545-1B84AD44E27E}' />
+    </window>
+    <window class='worksheet' name='KPI - Stroke'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BA51D7CC-88CA-41C3-8A6F-998445BC636C}' />
+    </window>
+    <window class='worksheet' name='Disease Prevalence'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A3FF19B5-42EE-4016-9094-1B023C776D51}' />
+    </window>
+    <window class='worksheet' name='Disease by Age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</field>
+            <field>[federated.0gve5dp1975oo91e9trxy1381t21].[none:Calculation_1650427506368512:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0598D9B4-0DE1-4998-891A-DCF7F548D2CB}' />
+    </window>
+    <window class='worksheet' name='Disease by BMI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6A503D75-D96E-4F4F-9666-112786179D7F}' />
+    </window>
+    <window class='worksheet' name='Risk Indicators'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gve5dp1975oo91e9trxy1381t21].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A61B5CD6-A691-43EE-9A57-4A6426F7BD31}' />
+    </window>
+    <window class='worksheet' name='Clinical Indicators'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:heart_disease:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0gve5dp1975oo91e9trxy1381t21].[sum:glucose:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1A2D39F5-58DA-4812-A0BE-F4AD76A1DE73}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Smart Healthcare Dashboard' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
